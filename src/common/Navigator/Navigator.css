@@ -1,0 +1,27 @@
+
+.navigatorDesign {
+
+    height: 2em;
+    width: 7em;
+
+    background-color: grey;
+
+    border-radius: 1em;
+    border: 0.1em solid darkblue;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1em;
+    transition: 0.3s;
+}
+
+.navigatorDesign:hover {
+
+    background-color: beige;
+
+    transition: 0.3s;
+}
