@@ -61,6 +61,7 @@ export const Register = () => {
         validateFunction={(e) => inputValidate(e)}
       />
 
+       {/* conditional en este caso es true...seria lo mismo que escribir conditional === true */}
       {conditional && (
         <>
           <InputText
