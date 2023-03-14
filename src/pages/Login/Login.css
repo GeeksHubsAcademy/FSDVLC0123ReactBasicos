@@ -11,3 +11,28 @@
     align-items: center;
     flex-direction: column;
 }
+
+.buttonLoginDesign {
+
+    height: 2em;
+    width: 7em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: crimson;
+    color: white;
+
+    border-radius: 0.5em;
+
+    cursor: pointer;
+
+    transition: 1s;
+}
+
+.buttonLoginDesign:hover {
+
+    background-color: darkred;
+    transition: 1s;
+}
